@@ -4,7 +4,7 @@
 import socket, json, psutil, multiprocessing, requests
 
 from flask import Flask, jsonify
-app = Flask(__name__)
+app = Flask (__name__)
 
 @app.route("/status")
 def status():
