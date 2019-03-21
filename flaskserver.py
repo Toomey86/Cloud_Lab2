@@ -1,7 +1,4 @@
-#!/bin/bash
-#!/usr/bin/env python
-
-import socket, json, psutil, multiprocessing, requests
+import socket, json, psutil, multiprocessing
 
 from flask import Flask, jsonify
 app = Flask (__name__)
